@@ -4109,3 +4109,11 @@ input, select, textarea {
 					}
 
 	}
+
+	.codeLogos {
+		height: 85px;
+	}
+
+	#white {
+		background-color: white;
+	}
