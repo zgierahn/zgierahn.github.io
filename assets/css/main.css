@@ -120,6 +120,11 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
+		a#upTag:hover {
+			color: white !important;
+			border-bottom-color: transparent;
+		}
+
 	strong, b {
 		color: #ffffff;
 		font-weight: 300;
@@ -138,6 +143,7 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
+		cursor: default;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -3532,7 +3538,8 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #272833;
+		background: #e44c65;
+		/* background: #272833; */
 		padding: 6em 0;
 		text-align: center;
 	}
@@ -3555,7 +3562,8 @@ input, select, textarea {
 			}
 
 			#footer .icons .icon.alt:before {
-				color: #272833 !important;
+				color: #e44c65 !important;
+				/* color: #272833 !important; */
 				text-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), -1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.5);
 			}
 
@@ -3574,12 +3582,14 @@ input, select, textarea {
 				list-style: none;
 				margin-left: 1.5em;
 				padding-left: 1.5em;
+				cursor: default;
 			}
 
 				#footer .copyright li:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
+					cursor: default;
 				}
 
 				#footer .copyright li a {
